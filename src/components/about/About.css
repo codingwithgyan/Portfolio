@@ -1,0 +1,83 @@
+.container {
+  width: 100vw;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  padding: 0% 5% 0% 5%;
+  width: 50vw;
+  text-align: center;
+  margin-top: 5%;
+  /* border: 1px solid blueviolet; */
+}
+.right {
+  padding-top: 5%;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+h1,
+h2 {
+  letter-spacing: 6px;
+  word-spacing: 2px;
+  user-select: none;
+  text-align: left;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 35px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  color: #ef1932;
+}
+
+h4 {
+  text-align: left;
+  user-select: none;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+a {
+  background-color: white;
+  color: black;
+  padding: 0px 3px 0px 8px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.pic {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url("../../images/gyan.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75%;
+  width: 50%;
+  border-radius: 5px;
+  border: 2px solid rgb(24, 24, 24);
+}
+.pic::after {
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    height: 1000px;
+  }
+  .left {
+    width: 100vw;
+  }
+  .right {
+    width: 100vw;
+  }
+}
