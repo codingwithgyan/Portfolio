@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.Skills {
+  padding: 5% 0% 5% 0%;
+  width: 100%;
+}
+.header {
+  text-align: center;
+  color: black;
+}
+.group {
+  width: 80%;
+  min-height: fit-content;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 20px;
+  margin: 0px auto;
+  margin-top: 5%;
+}
+.card {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  animation: move 0.5s;
+}
+@keyframes move {
+  0% {
+    margin-left: 0px;
+  }
+  25% {
+    margin-left: 20px;
+  }
+  50% {
+    margin-left: 40px;
+  }
+  75% {
+    margin-left: 50px;
+  }
+  100% {
+    margin-left: 60px;
+  }
+}
+.card:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+.html {
+  background-image: url("../../images/html.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.css {
+  background-image: url("../../images/css.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.javascript {
+  background-image: url("../../images/js.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.react {
+  background-image: url("../../images/react.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.redux {
+  background-image: url("../../images/redux.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.nodejs {
+  background-image: url("../../images/nodejs.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.expressjs {
+  background-image: url("../../images/express.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.java {
+  background-image: url("../../images/java.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.cli {
+  background-image: url("../../images/cli.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.mongodb {
+  background-image: url("../../images/mongodb.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

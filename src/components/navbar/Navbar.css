@@ -9,6 +9,7 @@ ul {
   flex-direction: row;
   justify-content: space-evenly;
   float: right;
+  margin-top: 20px;
 }
 li {
   padding: 5px;
@@ -21,6 +22,7 @@ li {
   font-weight: 600;
   border: 1px solid transparent;
   color: #e2e2e2;
+  user-select: none;
 }
 li:hover {
   border: 1px solid #ef1932;
