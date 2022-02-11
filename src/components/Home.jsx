@@ -4,6 +4,7 @@ import { About } from "./about/About";
 import { Skills } from "./skills/Skills";
 import Particles from "react-tsparticles";
 import config from "../particlesjs-config.json";
+import { Projects } from "./projects/Projects";
 
 export function Home()
 {
@@ -18,9 +19,10 @@ export function Home()
     return <div>
                     <Particles id="tsparticles" className="particles_bg" init={particlesInit} loaded={particlesLoaded} options={config} />
                    <div className="Home">
-                        <Navbar/>
+                        <Navbar/> 
                         <About/> 
-                        <Skills/>
+                        <Skills/> 
+                        <Projects/> 
                    </div>
            </div>;
 }

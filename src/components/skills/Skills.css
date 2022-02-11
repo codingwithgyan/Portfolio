@@ -7,12 +7,32 @@ body {
   padding: 0px;
 }
 .Skills {
-  padding: 5% 0% 5% 0%;
-  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 8%;
 }
 .header {
+  margin: 0px auto;
+  width: fit-content;
   text-align: center;
+  font-weight: 600;
+  font-size: 65px;
+  padding: 5px 20px 5px 20px;
+  border: 1px solid white;
   color: black;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 2;
+}
+.border_group {
+  height: 5px;
+  width: 80%;
+  display: inline-block;
+  background-color: #ef1932;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: 5%;
+  margin-top: 45px;
+  margin: auto;
 }
 .group {
   width: 80%;
@@ -31,25 +51,8 @@ body {
   border-radius: 50%;
   font-weight: bold;
   color: white;
-  animation: move 0.5s;
 }
-@keyframes move {
-  0% {
-    margin-left: 0px;
-  }
-  25% {
-    margin-left: 20px;
-  }
-  50% {
-    margin-left: 40px;
-  }
-  75% {
-    margin-left: 50px;
-  }
-  100% {
-    margin-left: 60px;
-  }
-}
+
 .card:hover {
   transform: scale(1.2);
   transition: transform 0.5s ease-in-out;

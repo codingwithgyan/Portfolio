@@ -2,7 +2,9 @@ import "./Skills.css"
 export function Skills()
 {
     return <div className="Skills">
-                <h1 className="header">Skills</h1> 
+                <center><div className="border_group"></div></center>
+                <h1 className="header">SKILLS</h1>
+               
                 <div className="group">
                     <div className="card html"></div>
                     <div className="card css"></div>
