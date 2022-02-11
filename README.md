@@ -5,6 +5,8 @@ Buid my own portfolio.<br/><br/>
 <h3>Teach stack used</h3>
 HTML | CSS | JAVASCRIPT | REACT
 <br/>
+
+# Feature
 <ul>
  <li>Unique Interface with animation</li>
  <li>Full responsive pages</li>
