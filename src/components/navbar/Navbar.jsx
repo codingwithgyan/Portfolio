@@ -6,7 +6,6 @@ export function Navbar()
                     <li>Home</li>
                     <li>Skills</li>
                     <li>Projects</li>
-                    <li>Acheivements</li>
                     <li>Certifications</li>
                     <li>Contact</li>
                 </ul>

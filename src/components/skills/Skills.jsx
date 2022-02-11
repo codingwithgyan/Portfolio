@@ -2,7 +2,7 @@ import "./Skills.css"
 export function Skills()
 {
     return <div className="Skills">
-                <center><div className="border_group"></div></center>
+                <div className="border_group"></div>
                 <h1 className="header">SKILLS</h1>
                
                 <div className="group">

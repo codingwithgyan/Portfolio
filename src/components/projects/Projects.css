@@ -1,12 +1,14 @@
 .projects {
-  background-color: rgb(8, 9, 11);
+  padding-top: 3%;
+  background-color: rgba(0, 0, 0, 0.788);
+  padding-bottom: 8%;
 }
 .header2 {
   height: fit-content;
   margin: 0px auto;
   width: fit-content;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #08090b;
   font-weight: 600;
   font-size: 65px;
   border: 1px solid black;
@@ -24,5 +26,11 @@
 .project_img1 {
   width: 100%;
   background-image: url("../../images/purplle.png");
+  background-size: 100% 100%;
+}
+
+.project_img2 {
+  width: 100%;
+  background-image: url("../../images/strawberry.png");
   background-size: 100% 100%;
 }

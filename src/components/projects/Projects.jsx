@@ -1,40 +1,35 @@
 import { Button, Card, Box,CardActions,IconButton , CardContent, CardMedia, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import SkipNextIcon from '@mui/icons-material/SkipNext';
 import "./Projects.css"
 export function Projects()
 {
     const theme = useTheme();
     return <div className="projects">
              <div className="border_group"></div>
-                 <h1 className="header2">Projects</h1>
+                <h1 className="header">Projects</h1>
                 <div className="group_card">
-                <Card sx={{ width: "500px" }} variant="outlined">
-                <CardMedia component="img" height="250" className='project_img1'
+                <Card sx={{ width: "400px" }} variant="outlined">
+                <CardMedia component="img" height="200" className='project_img1'
                     />
                     <CardContent>
-                        <Typography gutterBottom variant="h4" component="div">Purpple</Typography>
+                        <Typography gutterBottom variant="h5" component="div">Purpple</Typography>
                         <Typography gutterBottom variant="p" component="div">Ecommerce website to buy grooming products both for men and women.</Typography>
                     </CardContent>
                     <CardActions> 
-                        <Button variant="outlined" variant="outlined">Github</Button>
-                        <Button variant="outlined" variant="outlined">Website</Button>
-                        <Button variant="outlined" variant="outlined">Demo</Button>
+                        <Button href="https://github.com/codingwithgyan/Purplle" variant="outlined">Github</Button>
+                        <Button href="https://purplle-cw.vercel.app" variant="outlined">Website</Button>
+                        <Button variant="outlined">Demo</Button>
                     </CardActions>
                 </Card> 
 
-                 <Card sx={{ width: "500px" }} variant="outlined">
-                <CardMedia component="img" height="250" image="https://mui.com/static/images/cards/contemplative-reptile.jpg"
-                        alt="green iguana"
-                    />
+                 <Card sx={{ width: "400px" }} variant="outlined">
+                <CardMedia component="img" height="200" className='project_img2'/>
                     <CardContent>
-                        <Typography gutterBottom variant="h4" component="div">Purpple</Typography>
+                        <Typography gutterBottom variant="h5" component="div">Strawberry</Typography>
                         <Typography gutterBottom variant="p" component="div">Ecommerce website to buy grooming products both for men and women.</Typography>
                     </CardContent>
                     <CardActions>
-                        <Button variant="outlined">Github</Button>
+                        <Button variant="outlined" href="https://github.com/codingwithgyan/Strawberry-net">Github</Button>
                         <Button variant="outlined">Website</Button>
                         <Button variant="outlined">Demo</Button>
                     </CardActions>

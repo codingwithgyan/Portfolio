@@ -7,7 +7,9 @@ body {
   padding: 0px;
 }
 .Skills {
-  background-color: rgb(255, 255, 255);
+  margin-top: -70px;
+  padding-top: 3%;
+  background-color: rgba(0, 0, 0, 0.788);
   padding-bottom: 8%;
 }
 .header {
@@ -16,27 +18,30 @@ body {
   text-align: center;
   font-weight: 600;
   font-size: 65px;
-  padding: 5px 20px 5px 20px;
-  border: 1px solid white;
-  color: black;
-  background-color: rgb(255, 255, 255);
+  padding: 5px 20px 5px 25px;
+  color: rgb(238, 238, 238);
+  background-color: #08090b;
   position: relative;
   z-index: 2;
 }
 .border_group {
+  margin: 0px auto;
   height: 5px;
-  width: 80%;
-  display: inline-block;
+  width: 80vw;
   background-color: #ef1932;
+  border-radius: 10px;
   position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  left: 0;
+  right: 0;
+  text-align: center;
   z-index: 1;
-  margin-bottom: 5%;
-  margin-top: 45px;
-  margin: auto;
 }
 .group {
   width: 80%;
-  min-height: fit-content;
+  height: fit-content;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   grid-gap: 20px;
@@ -47,7 +52,7 @@ body {
   height: 150px;
   width: 150px;
   text-align: center;
-  /* border: 1px solid black; */
+  border: 5px solid rgb(212, 212, 212);
   border-radius: 50%;
   font-weight: bold;
   color: white;

@@ -5,6 +5,7 @@ import { Skills } from "./skills/Skills";
 import Particles from "react-tsparticles";
 import config from "../particlesjs-config.json";
 import { Projects } from "./projects/Projects";
+import { Certifications } from "./certifications/Certifications";
 
 export function Home()
 {
@@ -23,6 +24,7 @@ export function Home()
                         <About/> 
                         <Skills/> 
                         <Projects/> 
+                        <Certifications/>
                    </div>
            </div>;
 }
