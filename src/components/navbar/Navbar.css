@@ -12,10 +12,6 @@ ul {
   margin-top: 20px;
 }
 li {
-  padding: 5px;
-  padding: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
   cursor: pointer;
   border-radius: 3px;
   font-family: "Poppins";
@@ -25,8 +21,18 @@ li {
   user-select: none;
 }
 li:hover {
-  border: 1px solid #ef1932;
+  box-shadow: 0px 0px 4px 2px #ef1932;
   transition: border 0.4s ease-out;
+}
+li > a {
+  padding: 5px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+  background-color: transparent;
+  color: #e2e2e2;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {

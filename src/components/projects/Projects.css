@@ -3,34 +3,42 @@
   background-color: rgba(0, 0, 0, 0.788);
   padding-bottom: 8%;
 }
-.header2 {
-  height: fit-content;
-  margin: 0px auto;
-  width: fit-content;
-  text-align: center;
-  color: #08090b;
-  font-weight: 600;
-  font-size: 65px;
-  border: 1px solid black;
-  padding: 5px 20px 5px 20px;
-  border-radius: 5px;
-}
+
 .group_card {
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 0px auto;
-  margin-top: 5%;
-}
-.project_img1 {
   width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+  margin-top: 5%;
+  user-select: none;
+}
+
+.project_img1 {
   background-image: url("../../images/purplle.png");
   background-size: 100% 100%;
 }
 
 .project_img2 {
-  width: 100%;
   background-image: url("../../images/strawberry.png");
-  background-size: 100% 100%;
+  background-size: 102% 102%;
+}
+
+.svg_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.svg_group > svg {
+  color: #ef1932;
+}
+
+.btg_group {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px 20px;
+  margin: 0px auto;
+}
+
+.btn_action:hover {
+  background-color: #ef1932 !important;
 }

@@ -2,7 +2,7 @@ import { Button, Card, Box,CardActions,IconButton , CardContent, CardMedia, Typo
 import "./Certification.css";
 export function Certifications()
 {
-    return <div className="certificate">
-
+    return <div id="certificate" className="certificate">
+                <h1>Certificates</h1>
     </div>;
 }

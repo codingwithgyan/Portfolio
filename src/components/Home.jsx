@@ -6,7 +6,7 @@ import Particles from "react-tsparticles";
 import config from "../particlesjs-config.json";
 import { Projects } from "./projects/Projects";
 import { Certifications } from "./certifications/Certifications";
-
+import { Contact } from "./contact/Contact";
 export function Home()
 {
     const particlesInit = (main) => {
@@ -17,14 +17,14 @@ export function Home()
         console.log(container);
       };
    
-    return <div>
+    return <div id='home'>
                     <Particles id="tsparticles" className="particles_bg" init={particlesInit} loaded={particlesLoaded} options={config} />
                    <div className="Home">
                         <Navbar/> 
                         <About/> 
                         <Skills/> 
                         <Projects/> 
-                        <Certifications/>
+                        <Contact/>
                    </div>
            </div>;
 }

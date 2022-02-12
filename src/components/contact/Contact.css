@@ -1,0 +1,12 @@
+.Contact {
+  padding-top: 3%;
+  background-color: rgba(0, 0, 0, 0.788);
+  padding-bottom: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.link_group {
+  text-align: center;
+  background-color: #08090b;
+}

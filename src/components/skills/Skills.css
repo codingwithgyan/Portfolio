@@ -44,25 +44,34 @@ body {
   height: fit-content;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  grid-gap: 20px;
+  grid-gap: 40px 20px;
   margin: 0px auto;
   margin-top: 5%;
 }
 .card {
-  height: 150px;
-  width: 150px;
+  height: 80px;
+  width: 90px;
   text-align: center;
-  border: 5px solid rgb(212, 212, 212);
-  border-radius: 50%;
+  border-radius: 8px;
   font-weight: bold;
-  color: white;
+  background-color: rgb(251, 251, 251);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  user-select: none;
 }
-
+.svg {
+  height: 40px;
+  width: 40px;
+  color: #ef1932;
+  margin-bottom: 5px;
+  border: none;
+  box-shadow: 0px 0px 15px 5px rgb(251, 251, 251);
+}
 .card:hover {
   transform: scale(1.2);
   transition: transform 0.5s ease-in-out;
 }
-.html {
+/* .html {
   background-image: url("../../images/html.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -113,4 +122,4 @@ body {
   background-image: url("../../images/mongodb.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-}
+} */
