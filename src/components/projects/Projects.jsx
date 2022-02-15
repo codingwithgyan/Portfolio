@@ -1,6 +1,6 @@
-import { Button,Grid,ButtonGroup,SvgIcon,CardActionArea, Card, Box,CardActions,IconButton , CardContent, CardMedia, Typography } from '@mui/material';
+import { Button,Grid,ButtonGroup,useMediaQuery ,SvgIcon,CardActionArea, Card, Box,CardActions,IconButton , CardContent, CardMedia, Typography } from '@mui/material';
 import { motion } from 'framer-motion';
-import "./Projects.css"
+import "./Projects.css";
 export function Projects()
 {
     return <div className="projects" id="project">
@@ -10,14 +10,14 @@ export function Projects()
 
                 <Grid container spacing={0} direction="column" alignItems="center" justifyContent="center"
   style={{ width: '100%' }}>
-                <Card sx={{  backgroundColor: '#1c1c1c',display:'flex',flexDirection:'row',height:"220px",width: "60%",padding:'3%' }} variant="outlined">
-                <CardActionArea sx={{ width: '100%',height:'100%' }}>
+                <Card className='card_1' variant="outlined">
+                <CardActionArea className='card_area'>
                 <CardMedia component="img" sx={{ width: '100%',height:'100%',border:'3px solid #323232',borderRadius:'5px' }} className='project_img1'/>
                 </CardActionArea>
-                <Box sx={{ width:'100%',height:'100%'}}>
+                <Box className="card_box">
                     <CardContent sx={{display:'flex',flexDirection:'column',justifyContent:'space-evenly'}}>
                         <Typography sx={{textAlign:'center',fontWeight:'bold',color:'#ef1932'}} gutterBottom variant="h4" component="div">Purplle</Typography>
-                        <Typography sx={{textAlign:'center',color:'rgb(251, 251, 251)'}} gutterBottom variant="p" component="div">Ecommerce website to buy grooming products both for men and women.</Typography>
+                        <Typography sx={{textAlign:'center'}} gutterBottom variant="p" component="div">Ecommerce website to buy grooming products both for men and women.</Typography>
                         <Box className="svg_group">
                             <SvgIcon sx={{stroke:"currentColor",fill:"currentColor",strokeWidth:"0",version:"1.1",viewBox:"0 0 32 32",height:"1em",width:"1em"}}>
                                 <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"></path>
@@ -42,14 +42,14 @@ export function Projects()
                 </Card> 
                 <br/>
                 <br/>
-                <Card sx={{  backgroundColor: '#1c1c1c',display:'flex',flexDirection:'row',height:"220px",width: "60%",padding:'3%' }} variant="outlined">
-                <CardActionArea sx={{ width: '100%',height:'100%' }}>
+                <Card className='card_1'  variant="outlined">
+                <CardActionArea className='card_area'>
                 <CardMedia component="img" sx={{ width: '100%',height:'100%',border:'3px solid #323232',borderRadius:'5px' }} className='project_img2'/>
                 </CardActionArea>
-                <Box sx={{ width:'100%',height:'100%'}}>
+                <Box className="card_box">
                     <CardContent sx={{display:'flex',flexDirection:'column',justifyContent:'space-evenly'}}>
                         <Typography sx={{textAlign:'center',color:'#ef1932',fontWeight:'bold'}} gutterBottom variant="h4" component="div">Strawberry-net</Typography>
-                        <Typography sx={{textAlign:'center',color:'rgb(251, 251, 251)'}} gutterBottom variant="p" component="div">Ecommerce website to buy grooming products both for men and women.</Typography>
+                        <Typography sx={{textAlign:'center'}} gutterBottom variant="p" component="div">Ecommerce website to buy grooming products both for men and women.</Typography>
                         <Box className="svg_group">
                         <SvgIcon sx={{stroke:"currentColor",fill:"currentColor",strokeWidth:"0",version:"1.1",viewBox:"0 0 32 32",height:"1em",width:"1em"}}>
                              <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"></path>

@@ -42,3 +42,30 @@
 .btn_action:hover {
   background-color: #ef1932 !important;
 }
+
+.card_1 {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: row;
+  height: 220px;
+  width: 60%;
+  padding: 3%;
+}
+
+.card_area,
+.card_box {
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 800px) {
+  .card_1 {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+  .card_area,
+  .card_box {
+    width: 100%;
+    height: 50%;
+  }
+}

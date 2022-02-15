@@ -74,10 +74,16 @@ body {
 
 @media only screen and (max-width: 800px) {
   .Skills {
-    margin-top: -246px;
+    
   }
   .group {
     display: grid;
     grid-template-columns: auto auto auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .group {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 }

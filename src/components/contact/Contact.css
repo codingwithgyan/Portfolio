@@ -1,4 +1,8 @@
+#contact {
+  width: 100%;
+}
 .Contact {
+  width: 100%;
   padding-top: 3%;
   background-color: rgba(0, 0, 0, 0.788);
   padding-bottom: 8%;
@@ -9,4 +13,7 @@
 .link_group {
   text-align: center;
   background-color: #08090b;
+}
+
+@media only screen and (max-width: 800px) {
 }
