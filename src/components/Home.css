@@ -29,3 +29,13 @@ body {
 ul {
   list-style: none;
 }
+
+@media only screen and (max-width: 800px) {
+  #tsparticles {
+    width: 100vw;
+  }
+  .Home {
+    width: 100vw;
+    height: 200vh;
+  }
+}

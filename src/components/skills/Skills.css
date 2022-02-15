@@ -71,55 +71,13 @@ body {
   transform: scale(1.2);
   transition: transform 0.5s ease-in-out;
 }
-/* .html {
-  background-image: url("../../images/html.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.css {
-  background-image: url("../../images/css.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
 
-.javascript {
-  background-image: url("../../images/js.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+@media only screen and (max-width: 800px) {
+  .Skills {
+    margin-top: -246px;
+  }
+  .group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
 }
-.react {
-  background-image: url("../../images/react.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.redux {
-  background-image: url("../../images/redux.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.nodejs {
-  background-image: url("../../images/nodejs.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.expressjs {
-  background-image: url("../../images/express.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-.java {
-  background-image: url("../../images/java.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.cli {
-  background-image: url("../../images/cli.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-.mongodb {
-  background-image: url("../../images/mongodb.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-} */

@@ -35,6 +35,11 @@ li > a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 800px) {
+  ul {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .Navbar {
     height: 280px;

@@ -42,7 +42,7 @@ export function Projects()
                 </Card> 
                 <br/>
                 <br/>
-                <Card sx={{ backgroundColor:'#1c1c1c',display:'flex',flexDirection:'row',height:"40vh",width: "60%",padding:'3%' }} variant="outlined">
+                <Card sx={{  backgroundColor: '#1c1c1c',display:'flex',flexDirection:'row',height:"220px",width: "60%",padding:'3%' }} variant="outlined">
                 <CardActionArea sx={{ width: '100%',height:'100%' }}>
                 <CardMedia component="img" sx={{ width: '100%',height:'100%',border:'3px solid #323232',borderRadius:'5px' }} className='project_img2'/>
                 </CardActionArea>

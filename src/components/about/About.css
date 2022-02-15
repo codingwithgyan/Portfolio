@@ -69,15 +69,45 @@ a {
   border: 1px solid white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .container {
     flex-direction: column;
     height: 1000px;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 28px;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 35px;
+  }
+  h4 {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.788);
   }
   .left {
     width: 100vw;
   }
   .right {
     width: 100vw;
+  }
+  .pic {
+    height: 250px;
+    width: 200px;
   }
 }
