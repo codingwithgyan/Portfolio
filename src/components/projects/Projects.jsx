@@ -33,9 +33,9 @@ export function Projects()
                     
                     <CardActions> 
                     <ButtonGroup className='btg_group'>
-                        <Button className='btn_action' sx={{background:'#08090b'}} href="https://github.com/codingwithgyan/Purplle" variant="contained">Github</Button>
-                        <Button className='btn_action' sx={{background:'#08090b'}} href="https://purplle-cw.vercel.app" variant="contained">Website</Button>
-                        <Button  className='btn_action'sx={{background:'#08090b'}} variant="contained">Demo</Button>
+                        <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} href="https://github.com/codingwithgyan/Purplle" variant="contained">Github</Button>
+                        <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} href="https://purplle-cw.vercel.app" variant="contained">Website</Button>
+                        <Button target="_blank"  className='btn_action'sx={{background:'#08090b'}} variant="contained">Demo</Button>
                     </ButtonGroup>    
                     </CardActions>
                     </Box>       
@@ -73,9 +73,9 @@ export function Projects()
                     
                     <CardActions> 
                     <ButtonGroup className='btg_group'>
-                        <Button className='btn_action' sx={{background:'#08090b'}} href="https://github.com/codingwithgyan/Strawberry-net" variant="contained">Github</Button>
-                        <Button className='btn_action' sx={{background:'#08090b'}} href="https://purplle-cw.vercel.app" variant="contained">Website</Button>
-                        <Button className='btn_action' sx={{background:'#08090b'}} variant="contained">Demo</Button>
+                        <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} href="https://github.com/codingwithgyan/Strawberry-net" variant="contained">Github</Button>
+                        <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} href="https://bit.ly/strawberry-cw" variant="contained">Website</Button>
+                        <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} variant="contained">Demo</Button>
                     </ButtonGroup>    
                     </CardActions>
                     </Box>       
