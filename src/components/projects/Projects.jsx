@@ -17,7 +17,7 @@ export function Projects()
                 <Box className="card_box">
                     <CardContent sx={{display:'flex',flexDirection:'column',justifyContent:'space-evenly'}}>
                         <Typography sx={{textAlign:'center',fontWeight:'bold',color:'#ef1932'}} gutterBottom variant="h4" component="div">Purplle</Typography>
-                        <Typography sx={{textAlign:'center'}} gutterBottom variant="p" component="div">Ecommerce website to buy grooming products both for men and women.</Typography>
+                        <Typography sx={{textAlign:'center'}} gutterBottom variant="p" component="div">A clone of Ecommerce website built with HTML, CSS and Javascript only. We have added features like Admin panel, User Panel, dynamic navbar, etc </Typography>
                         <Box className="svg_group">
                             <SvgIcon sx={{stroke:"currentColor",fill:"currentColor",strokeWidth:"0",version:"1.1",viewBox:"0 0 32 32",height:"1em",width:"1em"}}>
                                 <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"></path>
@@ -35,7 +35,7 @@ export function Projects()
                     <ButtonGroup className='btg_group'>
                         <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} href="https://github.com/codingwithgyan/Purplle" variant="contained">Github</Button>
                         <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} href="https://purplle-cw.vercel.app" variant="contained">Website</Button>
-                        <Button target="_blank"  className='btn_action'sx={{background:'#08090b'}} variant="contained">Demo</Button>
+                        <Button target="_blank"  className='btn_action'sx={{background:'#08090b'}} href="https://drive.google.com/file/d/1E15GyjSa8EKrC_EEXE-Q4MHoARnnTalb/view?usp=sharing" variant="contained">Demo</Button>
                     </ButtonGroup>    
                     </CardActions>
                     </Box>       
@@ -49,7 +49,7 @@ export function Projects()
                 <Box className="card_box">
                     <CardContent sx={{display:'flex',flexDirection:'column',justifyContent:'space-evenly'}}>
                         <Typography sx={{textAlign:'center',color:'#ef1932',fontWeight:'bold'}} gutterBottom variant="h4" component="div">Strawberry-net</Typography>
-                        <Typography sx={{textAlign:'center'}} gutterBottom variant="p" component="div">Ecommerce website to buy grooming products both for men and women.</Typography>
+                        <Typography sx={{textAlign:'center'}} gutterBottom variant="p" component="div">A full-stack clone of Ecommerce website Strawberry-net developed by 3 members in time span of 5 days. We have added features like login/Signup, filter, sort , search products, etc.</Typography>
                         <Box className="svg_group">
                         <SvgIcon sx={{stroke:"currentColor",fill:"currentColor",strokeWidth:"0",version:"1.1",viewBox:"0 0 32 32",height:"1em",width:"1em"}}>
                              <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"></path>
@@ -75,7 +75,7 @@ export function Projects()
                     <ButtonGroup className='btg_group'>
                         <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} href="https://github.com/codingwithgyan/Strawberry-net" variant="contained">Github</Button>
                         <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} href="https://bit.ly/strawberry-cw" variant="contained">Website</Button>
-                        <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} variant="contained">Demo</Button>
+                        <Button target="_blank" className='btn_action' sx={{background:'#08090b'}} href="https://drive.google.com/file/d/1sDq9MwW1TpEMYxP3-7vjjwsdMa02pmDC/view?usp=sharing" variant="contained">Demo</Button>
                     </ButtonGroup>    
                     </CardActions>
                     </Box>       
