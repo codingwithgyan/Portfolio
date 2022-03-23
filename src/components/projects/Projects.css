@@ -12,7 +12,10 @@
   margin-top: 5%;
   user-select: none;
 }
-
+.project_img0 {
+  background-image: url("../../images/epic_games.PNG");
+  background-size: 100% 100%;
+}
 .project_img1 {
   background-image: url("../../images/purplle.png");
   background-size: 100% 100%;
@@ -20,9 +23,13 @@
 
 .project_img2 {
   background-image: url("../../images/strawberry.png");
-  background-size: 102% 102%;
+  background-size: 100% 100%;
 }
 
+.project_img3 {
+  background-image: url("../../images/chit_chat.PNG");
+  background-size: cover;
+}
 .svg_group {
   display: flex;
   flex-direction: row;
