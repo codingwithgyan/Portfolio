@@ -164,7 +164,7 @@ export function Projects() {
                     target="_blank"
                     className="btn_action"
                     sx={{ background: "#08090b" }}
-                    href=""
+                    href="https://www.youtube.com/watch?v=xwk7qPoJik4"
                     variant="contained"
                   >
                     Demo
@@ -434,7 +434,7 @@ export function Projects() {
                     target="_blank"
                     className="btn_action"
                     sx={{ background: "#08090b" }}
-                    href=""
+                    href="https://www.youtube.com/watch?v=Yqrlud-2GNo"
                     variant="contained"
                   >
                     Demo
