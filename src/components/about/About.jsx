@@ -14,7 +14,7 @@ understanding of MERN stack. A team
 player, who has an experience leading a team as well as work in a team effectively. Looking forward to working in an organization where he
 can get hands-on experience.
 </h4>
-                    <Button target="_blank" href="https://drive.google.com/file/d/1SwECML3Jea1te9alLFJdqSVZh3ofpwes/view?usp=sharing" variant="contained" style={{backgroundColor:'#ef1932',float:"left",marginTop:"15px"}}>Resume &nbsp; <ArrowCircleDown style={{fontSize:"18px"}} /></Button>
+                    <Button target="_blank" href="https://drive.google.com/file/d/1lx11HirQGwSUW5SR-CNExkkMa2EJ0OnO/view?usp=sharing" variant="contained" style={{backgroundColor:'#ef1932',float:"left",marginTop:"15px"}}>Resume &nbsp; <ArrowCircleDown style={{fontSize:"18px"}} /></Button>
                 </div>
                 <div className="right">
                     <div className="pic"></div>
